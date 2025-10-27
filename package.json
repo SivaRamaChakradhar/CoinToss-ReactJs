@@ -1,5 +1,6 @@
 {
   "name": "coin-toss-game",
+  "homepage": "https://sivaramachakradhar.github.io/CoinToss-ReactJs",
   "private": true,
   "version": "1.0.0",
   "engines": {
@@ -27,6 +28,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
